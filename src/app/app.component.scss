@@ -1,0 +1,9 @@
+.date-container {
+  display: flex;
+  justify-content: center;
+
+  @media (max-width: 959px) {
+    background-color: lightblue;
+    justify-content: flex-start;
+  }
+}
